@@ -1,0 +1,4 @@
+# GIT-IGNORED
+.env
+
+node_modules

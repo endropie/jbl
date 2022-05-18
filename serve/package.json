@@ -1,0 +1,19 @@
+{
+  "name": "jbl-serve",
+  "version": "1.0.0",
+  "description": "The simple marketplace management application",
+  "main": "server.js",
+  "scripts": {
+    "db:init": "node lib/database/init && exit 0"
+  },
+  "author": "hendrowibowo@msn.com",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/hapi": "^20.2.2",
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "hapi-pgsql": "^1.0.2",
+    "pg-format": "^1.0.4",
+    "xml-js": "^1.6.11"
+  }
+}
